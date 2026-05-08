@@ -1,0 +1,47 @@
+Es handelt sich um eine schön gestaltete, spielbare Web-Version des klassischen Stift-und-Papier-Spiels Käsekästchen (auch bekannt als Kästchenspiel oder Dots and Boxes). Du spielst dabei gegen einen Computergegner (KI).
+
+Spielziel
+
+Das Ziel des Spiels ist es, mehr Kästchen auf dem Spielfeld zu erobern als die KI.
+
+Spielablauf
+
+- Zug machen: Die Spieler ziehen abwechselnd eine Linie zwischen zwei benachbarten Punkten. Im Spiel klickst du dazu einfach auf eine der verfügbaren grauen Linien auf dem Spielfeld.
+
+- Kästchen erobern: Wenn du durch das Ziehen einer Linie ein 1x1-Kästchen vervollständigst (also die vierte und letzte Seite schließt), wird dieses Kästchen für dich markiert und deinem Punktestand gutgeschrieben.
+
+- Extrazug: Der entscheidende Kniff des Spiels ist: Nachdem du ein Kästchen erobert hast, bist du sofort noch einmal am Zug und musst eine weitere Linie ziehen. Dies kann zu langen Kettenzügen führen.
+
+- Spielende: Das Spiel endet, wenn alle möglichen Linien auf dem Spielfeld gezogen wurden. Der Spieler mit den meisten eroberten Kästchen gewinnt.
+
+Besondere Funktionen und Merkmale der Datei
+
+Das Spiel in dieser HTML-Datei ist sehr modern und mit vielen Details umgesetzt:
+
+- Gegner: Du spielst gegen eine KI. Die Analyse des Codes zeigt, dass die KI ihre Züge zufällig aus den verfügbaren Linien wählt, sie verfolgt also keine komplexe Strategie.
+
+- Anpassungsoptionen: Vor dem Spielstart kannst du einige Einstellungen vornehmen:
+
+- - Spielfeldgröße: Wählbar von 3×3 bis 8×8 Kästchen.
+
+- - Randlinien: Du kannst festlegen, ob die äußeren Linien des Spielfelds von Anfang an gezeichnet sein sollen.
+
+- - Sound: Die Soundeffekte können ein- und ausgeschaltet werden.
+
+- Visuelles Design: Das Spiel hat eine ansprechende, moderne Optik mit Farbverläufen und abgerundeten Ecken.
+
+- Animationen und Effekte: Es gibt zahlreiche visuelle Rückmeldungen:
+
+- - Interaktive Hover-Effekte auf den Linien und Buttons.
+
+- - Eine Animation beim Ziehen einer Linie.
+
+- - Eine besondere Animation, wenn ein Kästchen erobert wird.
+
+- - Eine "Nachdenk"-Animation, wenn die KI am Zug ist.
+
+- - Bei einem Sieg wird eine Konfetti-Animation abgespielt.
+
+- Audio-Feedback: Das Spiel erzeugt dynamisch Töne für verschiedene Aktionen, z. B. für das Ziehen einer Linie, das Erobern eines Kästchens oder das Spielende (unterschiedliche Klänge für Sieg und Niederlage).
+
+- Integrierte Spielregeln: Ein Button öffnet ein Fenster, in dem die Spielregeln jederzeit nachgelesen werden können.
